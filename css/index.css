@@ -32,12 +32,12 @@
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    scroll-behavior: smooth; /* Adiciona um efeito suave ao rolar horizontalmente */
+    scroll-behavior: smooth; 
   }
   
   .rowposter a {
-    cursor: pointer; /* Mudei para pointer, que é mais comum em links */
-    display: inline-block; /* Garante que o link se comporte corretamente ao redor da imagem */
+    cursor: pointer; 
+    display: inline-block; 
   }
   
   .rowimg:hover {
@@ -45,13 +45,13 @@
   }
   
   .rowposter::-webkit-scrollbar {
-    display: none; /* Oculta a barra de rolagem */
+    display: none; 
   }
   
   .rowposter a img {
     margin-right: 10px;
     border-radius: 20px;
-    box-sizing: border-box; /* Ajustado para o box-sizing correto */
+    box-sizing: border-box; 
     transition: transform 450ms;
     max-height: 300px;
     object-fit: contain;

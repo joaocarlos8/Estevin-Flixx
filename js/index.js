@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // Trending Movies Scroll 
 const containerTrendingMovies = document.getElementById("trendingMovies"); 
-let scrollIntervalTrendingMovies; // Controlador para o intervalo de scroll 
-let scrollDirectionTrendingMovies = 0; // Direção do scroll (0 - parado, 1 - direita, -1 - esquerda) 
+let scrollIntervalTrendingMovies; 
+let scrollDirectionTrendingMovies = 0; 
 
 containerTrendingMovies.addEventListener("mousemove", (e) => { 
   const boundingRect = containerTrendingMovies.getBoundingClientRect(); 
